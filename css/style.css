@@ -2538,6 +2538,7 @@ h3 {
   margin-bottom: 46px;
 }
 
+
 /* line 60, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_bradcam.scss */
 .popup_box .boxed-btn3 {
   width: 100%;
@@ -2633,6 +2634,28 @@ h3 {
 .popup_box .nice-select.list {
   height: 200px;
   overflow-y: scroll;
+}
+
+#form-lama {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#form-lama .mfp-close-btn-in .mfp-close {
+  color: #333;
+  display: none !important;
+}
+
+#form-lama button.mfp-close {
+  display: none !important;
 }
 
 /* line 142, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_bradcam.scss */
